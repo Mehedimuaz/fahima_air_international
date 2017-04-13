@@ -1,0 +1,42 @@
+/* CSS Document */
+
+body {
+	font: 400 15px Lato, sans-serif;
+	line-height: 1.8;
+	color: #818181;
+}
+
+.bg-teal {
+	background-color:#EAFAF1;
+}
+
+span, i {
+	color:#239B56;
+}
+
+.navbar {
+	background-color:rgba(35, 155, 86, 0.9);	
+	border:0;
+}
+
+.navbar a {
+	color:#fff !important;
+	text-transform:uppercase;
+	letter-spacing:4px;	
+}
+
+.navbar span, .navbar i {
+	color:#fff;	
+}
+
+.navbar li.active, .navbar li.active a {
+	background-color:#fff !important;
+}
+
+.navbar li.active a {
+	color:#239B56 !important;
+}
+
+.navbar li.active span, .navbar li.active i {
+	color:#239B56;
+}
